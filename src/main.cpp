@@ -55,7 +55,7 @@ void printCurrentStatus() {
 }
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     while (!Serial); // รอจนกว่า Serial พร้อม
     
     Serial.println("\n\n=== Smart Device ESP32 - LED Status Indicator ===");
